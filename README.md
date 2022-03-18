@@ -14,46 +14,52 @@ integrated TextMates language parsing engine, using PCRE regular
 expressions to match syntax. 
 
 ## Syntax Highlighting
+
 <img src="res/syntax.png" width="500">
 
 ## Lexicographic and Parser Errors
+
 <img src="res/errors.gif" width="800">
 
 ## Commonly Used Snippets
+
 <img src="res/snippets.gif" width="800">
 
 ## Supported keywords
-- BA
-- BA_DEF
-- BA_DEF_DEF
-- BA_DEF_DEF_REL
-- BA_DEF_REL
-- BA_REL
-- BO
-- BO_TX_BU
-- BS
-- BU
-- BU_SG_REL
-- CM
-- EV
-- NS
-- SG
-- SGTYPE
-- SIG_GROUP
-- VAL
-- VAL_TABLE
-- VERSION
+
+      - BA
+      - BA_DEF
+      - BA_DEF_DEF
+      - BA_DEF_DEF_REL
+      - BA_DEF_REL
+      - BA_REL
+      - BO
+      - BO_TX_BU
+      - BS
+      - BU
+      - BU_SG_REL
+      - CM
+      - EV
+      - NS
+      - SG
+      - SGTYPE
+      - SIG_GROUP
+      - VAL
+      - VAL_TABLE
+      - VERSION
+
 ## Known Issues
 
-1. Attribute definitions that wrap lines may not be highlighted on the following
-   lines. 
-1. Signals that are multiplexed will not be recognized
+      1. Attribute definitions that wrap lines may not be highlighted on the following lines. 
+      2. Signals that are multiplexed will not be recognized
 
 ## Todo items
-- Make lexer and parser errors more useful
-- Add checks that prevent crashing when signals don't exist
-- Include debugging (invalid offset, start bit, min, max, etc)
-- Hover box to show all related fields as a hint
+
+      - Make lexer and parser errors more useful
+      - Add checks that prevent crashing when signals don't exist
+      - Include debugging (invalid offset, start bit, min, max, etc)
+      - Hover box to show all related fields as a hint
 
 ## License
-GNU General Public License v2.0 only
+
+      GNU General Public License v2.0 only
